@@ -1,7 +1,7 @@
-import { Case } from './case';
+import { Case } from './case'
 
 describe('Case', () => {
   it('should be defined', () => {
-    expect(new Case()).toBeDefined();
-  });
-});
+    expect(new Case()).toBeDefined()
+  })
+})
