@@ -1,6 +1,7 @@
-import { Controller, Get, Post, Headers, Query, Param, Body, HttpStatus, Res } from '@nestjs/common'
+// import { Controller, Get, Post, Headers, Query, Param, Body, HttpStatus, Res } from '@nestjs/common'
+import { Controller, Get, Post, Headers, Query, Body } from '@nestjs/common'
 import { CaseService } from '../../services/case/case.service'
-import { response } from '../../classes/response'
+// import { response } from '../../classes/response'
 
 @Controller('case')
 export class CaseController {
